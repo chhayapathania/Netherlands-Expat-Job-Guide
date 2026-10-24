@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netherlands Expat Job Market & Relocation Guide 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 bg-slate-900 text-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center space-x-3">
+                    <div class="bg-orange-500 text-white p-2 rounded-lg font-bold">NL</div>
+                    <span class="font-bold text-lg tracking-tight">Expat Guide 2026</span>
+                </div>
+                <div class="hidden md:flex space-x-6 text-sm font-medium">
+                    <a href="#overview" class="hover:text-orange-400 transition">Market Overview</a>
+                    <a href="#calculator" class="hover:text-orange-400 transition">Tax & Visa Calculator</a>
+                    <a href="#competition" class="hover:text-orange-400 transition">Offshore Realities</a>
+                    <a href="#salaries" class="hover:text-orange-400 transition">Salaries & Demand</a>
+                    <a href="#portals" class="hover:text-orange-400 transition">Job Portals</a>
+                    <a href="#faq" class="hover:text-orange-400 transition">FAQs</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white py-12 md:py-20 px-4">
+        <div class="max-w-5xl mx-auto text-center space-y-4">
+            <span class="inline-block bg-orange-500/20 text-orange-400 border border-orange-500/30 text-xs uppercase tracking-wider px-3 py-1 rounded-full font-semibold">Updated 2026 Edition</span>
+            <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight">Netherlands Expat Job Market & Visa Intelligence</h1>
+            <p class="text-slate-300 text-base md:text-lg max-w-3xl mx-auto font-light">Navigating English-speaking opportunities, IND Highly Skilled Migrant (HSM) visa thresholds, competition dynamics, and net salary calculations.</p>
+        </div>
+    </header>
+
+    <!-- Key Stats Banner -->
+    <section id="overview" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+            <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-200 text-center">
+                <p class="text-xs uppercase font-bold text-slate-400">2026 HSM Salary (30+ yrs)</p>
+                <p class="text-2xl font-black text-slate-900 mt-1">€5,942 <span class="text-xs font-normal text-slate-500">/ mo</span></p>
+                <p class="text-[11px] text-slate-500 mt-1">Excl. 8% Holiday Pay</p>
+            </div>
+            <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-200 text-center">
+                <p class="text-xs uppercase font-bold text-slate-400">2026 HSM Salary (&lt;30 yrs)</p>
+                <p class="text-2xl font-black text-slate-900 mt-1">€4,357 <span class="text-xs font-normal text-slate-500">/ mo</span></p>
+                <p class="text-[11px] text-slate-500 mt-1">Excl. 8% Holiday Pay</p>
+            </div>
+            <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-200 text-center">
+                <p class="text-xs uppercase font-bold text-slate-400">Avg. Applicants / Job</p>
+                <p class="text-2xl font-black text-orange-600 mt-1">200 – 500+</p>
+                <p class="text-[11px] text-slate-500 mt-1">For English-Only Remote/Hybrid</p>
+            </div>
+            <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-200 text-center">
+                <p class="text-xs uppercase font-bold text-slate-400">Top Bottleneck</p>
+                <p class="text-2xl font-black text-indigo-600 mt-1">Housing</p>
+                <p class="text-[11px] text-slate-500 mt-1">Beats Visa Approval Hurdles</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Grid -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
+
+        <!-- Calculator Section -->
+        <section id="calculator" class="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200">
+            <div class="flex items-center space-x-3 mb-6">
+                <div class="bg-orange-100 text-orange-600 p-3 rounded-lg"><i class="fa-solid fa-calculator text-xl"></i></div>
+                <div>
+                    <h2 class="text-xl font-bold text-slate-900">2026 Dutch Net Salary & HSM Visa Threshold Estimator</h2>
+                    <p class="text-xs text-slate-500">Estimate your monthly net income and check IND HSM visa eligibility.</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Inputs -->
+                <div class="space-y-4">
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-700 mb-1">Gross Annual Salary (€ including 8% holiday pay)</label>
+                        <input type="number" id="calcGross" value="75000" class="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:outline-none text-slate-900 font-semibold" oninput="calculateSalary()">
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-700 mb-1">Age Category</label>
+                            <select id="calcAge" class="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:outline-none text-slate-900 text-sm" onchange="calculateSalary()">
+                                <option value="over30">30 Years or Older</option>
+                                <option value="under30">Under 30 Years</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-700 mb-1">30% Tax Ruling</label>
+                            <select id="calcRuling" class="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:outline-none text-slate-900 text-sm" onchange="calculateSalary()">
+                                <option value="yes">Eligible (30% Exemption)</option>
+                                <option value="no">Standard Tax (0% Exemption)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="bg-slate-50 p-4 rounded-lg text-xs space-y-1 text-slate-600 border border-slate-200">
+                        <p>• <strong>Calculations include:</strong> Box 1 income tax brackets and general tax credits.</p>
+                        <p>• <strong>Estimated Health Insurance:</strong> ~€160/month deducted post-tax.</p>
+                        <p>• <strong>Note:</strong> Final figures depend on municipal taxes and personal allowances.</p>
+                    </div>
+                </div>
+
+                <!-- Results -->
+                <div class="bg-slate-900 text-white p-6 rounded-xl flex flex-col justify-between">
+                    <div>
+                        <p class="text-xs uppercase font-bold text-slate-400">Estimated Monthly Net Income</p>
+                        <p class="text-4xl font-black text-emerald-400 mt-2" id="outNet">€4,250 <span class="text-xs text-slate-400 font-normal">/ month</span></p>
+                        <p class="text-xs text-slate-400 mt-1" id="outGrossMonthly">Gross Monthly (excl. holiday): €5,771</p>
+                    </div>
+
+                    <div class="my-6 border-t border-slate-800 pt-4 space-y-2 text-xs">
+                        <div class="flex justify-between">
+                            <span class="text-slate-400">Effective Tax Rate:</span>
+                            <span class="font-bold text-white" id="outTaxRate">28.5%</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-slate-400">IND 2026 Threshold Required:</span>
+                            <span class="font-bold text-white" id="outThresholdReq">€5,942 / mo</span>
+                        </div>
+                    </div>
+
+                    <div id="statusBadge" class="p-3 rounded-lg text-center font-bold text-xs uppercase tracking-wide bg-emerald-500/20 text-emerald-300 border border-emerald-500/40">
+                        ✓ Meets 2026 HSM Visa Salary Requirement
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Offshore Realities & Competition -->
+        <section id="competition" class="space-y-6">
+            <div class="border-l-4 border-orange-500 pl-4">
+                <h2 class="text-2xl font-bold text-slate-900">What You Fight Against (Offshore Job Seeker Reality)</h2>
+                <p class="text-slate-600 text-sm">Understanding the hidden barriers when applying from abroad.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm space-y-2">
+                    <div class="text-orange-500 font-bold text-lg"><i class="fa-solid fa-users text-xl"></i> Local & In-Country Competition</div>
+                    <p class="text-xs text-slate-600 leading-relaxed">You aren't just competing with other foreign applicants. You face in-country expats, search-year graduates, and expat spouses who already hold full work authorization and local addresses.</p>
+                </div>
+                <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm space-y-2">
+                    <div class="text-indigo-600 font-bold text-lg"><i class="fa-solid fa-house-circle-xmark text-xl"></i> The Housing Bottleneck</div>
+                    <p class="text-xs text-slate-600 leading-relaxed">Employers hesitate on offshore hires because candidates struggle to secure housing within 30–60 days in major cities. Having a clear relocation strategy eases employer worry.</p>
+                </div>
+                <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm space-y-2">
+                    <div class="text-emerald-600 font-bold text-lg"><i class="fa-solid fa-earth-europe text-xl"></i> Offshoring & Restructuring</div>
+                    <p class="text-xs text-slate-600 leading-relaxed">Companies are selective with onshore sponsorship. Mid-level or generalist operational roles are increasingly shifted to tech hubs like India to manage overhead costs.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Salaries & In-Demand Roles -->
+        <section id="salaries" class="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200 space-y-6">
+            <div>
+                <h2 class="text-xl font-bold text-slate-900">In-Demand Roles & Salary Benchmarks (2026)</h2>
+                <p class="text-xs text-slate-500">Representative annual gross compensation bands (including 8% holiday pay) for sponsored roles.</p>
+            </div>
+
+            <div class="overflow-x-auto">
+                <table class="w-full text-left text-xs text-slate-700">
+                    <thead class="bg-slate-100 text-slate-900 font-bold uppercase tracking-wider">
+                        <tr>
+                            <th class="p-3 rounded-l-lg">Domain / Field</th>
+                            <th class="p-3">Key Roles in Demand</th>
+                            <th class="p-3">Mid Level (3-6 yrs)</th>
+                            <th class="p-3 rounded-r-lg">Senior / Lead (7+ yrs)</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-200">
+                        <tr>
+                            <td class="p-3 font-semibold text-slate-900">Cloud & DevOps</td>
+                            <td class="p-3">AWS/Azure Architect, Site Reliability Engineer</td>
+                            <td class="p-3">€65,000 – €80,000</td>
+                            <td class="p-3 font-semibold text-emerald-600">€85,000 – €115,000</td>
+                        </tr>
+                        <tr>
+                            <td class="p-3 font-semibold text-slate-900">AI & Data Engineering</td>
+                            <td class="p-3">Data Engineer, Machine Learning Specialist</td>
+                            <td class="p-3">€68,000 – €82,000</td>
+                            <td class="p-3 font-semibold text-emerald-600">€90,000 – €125,000</td>
+                        </tr>
+                        <tr>
+                            <td class="p-3 font-semibold text-slate-900">Enterprise Hardware</td>
+                            <td class="p-3">Semiconductor, Embedded Systems (Brainport)</td>
+                            <td class="p-3">€62,000 – €78,000</td>
+                            <td class="p-3 font-semibold text-emerald-600">€80,000 – €110,000</td>
+                        </tr>
+                        <tr>
+                            <td class="p-3 font-semibold text-slate-900">Supply Chain & Procurement</td>
+                            <td class="p-3">Global Demand Planner, Sourcing Manager</td>
+                            <td class="p-3">€58,000 – €72,000</td>
+                            <td class="p-3 font-semibold text-emerald-600">€78,000 – €105,000</td>
+                        </tr>
+                        <tr>
+                            <td class="p-3 font-semibold text-slate-900">Customer Success (B2B)</td>
+                            <td class="p-3">Enterprise CSM, Technical Account Manager</td>
+                            <td class="p-3">€60,000 – €75,000</td>
+                            <td class="p-3 font-semibold text-emerald-600">€80,000 – €100,000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Job Portals -->
+        <section id="portals" class="space-y-6">
+            <div class="border-l-4 border-indigo-600 pl-4">
+                <h2 class="text-2xl font-bold text-slate-900">Where to Find English-Speaking Jobs</h2>
+                <p class="text-slate-600 text-sm">Key platforms and recruiters specializing in international hires.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white p-5 rounded-xl border border-slate-200 space-y-3">
+                    <h3 class="font-bold text-slate-900 text-sm flex items-center space-x-2">
+                        <i class="fa-solid fa-globe text-orange-500"></i>
+                        <span>Tech & Visa-Focused Platforms</span>
+                    </h3>
+                    <ul class="text-xs space-y-2 text-slate-600">
+                        <li>• <strong>Honeypot.io:</strong> Reverse recruitment platform for tech where companies apply to you.</li>
+                        <li>• <strong>Relocate.me:</strong> Job board specifically listing verified visa-sponsored tech roles.</li>
+                        <li>• <strong>TechPays.eu:</strong> Transparent Dutch tech salary data and compensation benchmarking.</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-5 rounded-xl border border-slate-200 space-y-3">
+                    <h3 class="font-bold text-slate-900 text-sm flex items-center space-x-2">
+                        <i class="fa-solid fa-briefcase text-indigo-600"></i>
+                        <span>Expat & Multilingual Agencies</span>
+                    </h3>
+                    <ul class="text-xs space-y-2 text-slate-600">
+                        <li>• <strong>Undutchables & Adams Multilingual:</strong> Specialized in non-Dutch speaking corporate placement.</li>
+                        <li>• <strong>IamExpat Jobs & Together Abroad:</strong> Dedicated expat boards where English is the primary language.</li>
+                        <li>• <strong>Page Personnel / Michael Page NL:</strong> Strong for corporate, finance, and supply chain recruitment.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQs -->
+        <section id="faq" class="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200 space-y-6">
+            <h2 class="text-xl font-bold text-slate-900">Frequently Asked Questions</h2>
+            <div class="space-y-4 text-xs text-slate-700">
+                <div class="border-b pb-3">
+                    <p class="font-bold text-sm text-slate-900 mb-1">Do companies sponsor non-IT roles for HSM visas?</p>
+                    <p class="text-slate-600">Yes. The IND HSM visa depends on the employer being an IND Recognized Sponsor and meeting the legal monthly gross salary requirement (€5,942 for 30+). Title or industry is not restricted.</p>
+                </div>
+                <div class="border-b pb-3">
+                    <p class="font-bold text-sm text-slate-900 mb-1">What CV format works best in the Netherlands?</p>
+                    <p class="text-slate-600">Dutch hiring managers favor direct, concise 1 to 2-page CVs focusing on quantifiable metrics, tools used, and clear responsibilities rather than multi-page descriptive task lists.</p>
+                </div>
+                <div>
+                    <p class="font-bold text-sm text-slate-900 mb-1">How important are employee referrals?</p>
+                    <p class="text-slate-600">Critical. Due to applicant volumes on public job postings (200–500+), an internal employee referral is the most effective way to ensure your application gets reviewed by a hiring manager.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-slate-900 text-slate-400 text-xs py-8 text-center border-t border-slate-800">
+        <p>© 2026 Netherlands Expat Career Intelligence. Data compiled from IND, CBS, and market salary benchmarks.</p>
+    </footer>
+
+    <script>
+        function calculateSalary() {
+            const grossAnnual = parseFloat(document.getElementById('calcGross').value) || 0;
+            const age = document.getElementById('calcAge').value;
+            const ruling = document.getElementById('calcRuling').value;
+
+            // Monthly gross excluding holiday pay (divided by 12 * 1.08)
+            const grossMonthlyExclHoliday = (grossAnnual / 1.08) / 12;
+
+            // Simple Box 1 tax estimation
+            let taxableBase = grossAnnual;
+            if (ruling === 'yes') {
+                taxableBase = grossAnnual * 0.70; // 30% tax free
+            }
+
+            // Progressive Tax Bracket Approximation
+            let estimatedTax = 0;
+            if (taxableBase <= 38000) {
+                estimatedTax = taxableBase * 0.3697;
+            } else text = 0; {
+                estimatedTax = (38000 * 0.3697) + ((taxableBase - 38000) * 0.495);
+            }
+
+            // General Tax Credit offset
+            const taxCredit = Math.max(0, 3350 - (taxableBase * 0.03));
+            let netAnnual = taxableBase - (estimatedTax - taxCredit);
+            if (ruling === 'yes') {
+                netAnnual += (grossAnnual * 0.30);
+            }
+
+            let netMonthly = (netAnnual / 12) - 160; // deduct €160 health insurance
+            if (netMonthly < 0) netMonthly = 0;
+
+            const effectiveTax = ((grossAnnual - netAnnual) / grossAnnual * 100).toFixed(1);
+
+            // Update UI
+            document.getElementById('outNet').innerText = '€' + Math.round(netMonthly).toLocaleString();
+            document.getElementById('outGrossMonthly').innerText = 'Gross Monthly (excl. holiday): €' + Math.round(grossMonthlyExclHoliday).toLocaleString();
+            document.getElementById('outTaxRate').innerText = (effectiveTax > 0 ? effectiveTax : 0) + '%';
+
+            // Threshold Check
+            const requiredThreshold = (age === 'over30') ? 5942 : 4357;
+            document.getElementById('outThresholdReq').innerText = '€' + requiredThreshold.toLocaleString() + ' / mo';
+
+            const badge = document.getElementById('statusBadge');
+            if (grossMonthlyExclHoliday >= requiredThreshold) {
+                badge.className = 'p-3 rounded-lg text-center font-bold text-xs uppercase tracking-wide bg-emerald-500/20 text-emerald-300 border border-emerald-500/40';
+                badge.innerText = '✓ Meets 2026 HSM Visa Salary Requirement';
+            } else {
+                badge.className = 'p-3 rounded-lg text-center font-bold text-xs uppercase tracking-wide bg-rose-500/20 text-rose-300 border border-rose-500/40';
+                badge.innerText = '✕ Below 2026 IND HSM Salary Threshold';
+            }
+        }
+
+        // Initialize on load
+        calculateSalary();
+    </script>
+</body>
+</html>
